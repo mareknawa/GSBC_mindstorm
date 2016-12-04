@@ -20,6 +20,22 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+		img {
+			border: none !important
+		}
+		.Cleft {
+			position: relative;
+			left: -100px;
+		}
+		.Cright {
+			width: 440px !important;
+		}
+		.Ccollumn {
+			width: 500px;
+			float: left;
+		}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -45,17 +61,62 @@
 
 				<section>
 					<section>
-						<div style="position: relative; left: -100px; valign: top; width: 500px; float: left">
+						<div class="Ccollumn Cleft">
 							<h2>Podstawy Programowania</h2>
 							<ul>
 								<li><strong><a href="scratch.mit.edu/">Scratch</a></strong> - środowisko do nauki programowania</li>
 								<li><strong><a href="www.python.org/">Python</a></strong>  - prosty język interpretowany</li>
 							</ul>
 						</div>
-						<div style="width: 440px; float: left; valign: top">
+						<div class="Ccollumn Cright">
 							<img src="resources/scratch.jpg">
 							<img src="resources/python3.png">
 						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Lego League</h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Inne Systemy</h2>
+					</section>
+
+					<section>
+
+						<div class="Ccollumn Cleft">
+							<h2>ev3dev</h2>
+							<ul>
+								<li>debian</li>
+								<li>Swoboda języka
+									<ul>
+										<li>C++</li>
+										<li>Python</li>
+										<li>NodeJS</li>
+										<li>Go</li>
+									</ul>
+								</li>
+								<li><a href="http://www.ev3dev.org/">strona projektu</a></li>
+							</ul>
+						</div>
+
+						<div class="Ccollumn Cright">
+							<img src="resources/ev3dev_boot.png">
+							<img src="resources/putty-robot-at-ev3dev.png">
+						</div>
+
+					</section>
+
+					<section>
+
+						<div class="Ccollumn Cleft">
+							<h2>LeJOS</h2>
+						</div>
+
 					</section>
 				</section>
 
