@@ -20,13 +20,29 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+		img {
+			border: none !important
+		}
+		.Cleft {
+			position: relative;
+			left: -10%;
+		}
+		.Cright {
+			width: 49% !important;
+		}
+		.Ccollumn {
+			width: 51%;
+			float: left;
+		}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 
 				<section>
-					<h2>GSBC- Lego Mindstorm</h2>
+					<h2>GSBC</br>Lego Mindstorm</h2>
 				</section>
 
 				<section>
@@ -45,18 +61,174 @@
 
 				<section>
 					<section>
-						<div style="position: relative; left: -100px; valign: top; width: 500px; float: left">
+						<div class="Ccollumn Cleft">
 							<h2>Podstawy Programowania</h2>
 							<ul>
 								<li><strong><a href="scratch.mit.edu/">Scratch</a></strong> - środowisko do nauki programowania</li>
 								<li><strong><a href="www.python.org/">Python</a></strong>  - prosty język interpretowany</li>
 							</ul>
 						</div>
-						<div style="width: 440px; float: left; valign: top">
+						<div class="Ccollumn Cright">
 							<img src="resources/scratch.jpg">
 							<img src="resources/python3.png">
 						</div>
 					</section>
+
+					<section>
+						<div class="Ccollumn Cleft">
+							<h2>Budowanie z Lego Technics</h2>
+							<ul>
+								<li>Czytanie instrukcji</li>
+								<li>Przenoszenie ruchu (trybka i przekładnie)</li>
+							</ul>
+						</div>
+
+						<div class="Ccollumn Cright">
+							<img src="resources/legoTechnicDifferential.jpg">
+							<img src="resources/legoInstrukcja.jpg">
+						</div>
+
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Co kupić?</h2>
+						<ul>
+							<li>Lego Education</li>
+							<li>Lego Home Edition</li>
+							<li>NXT - wersja budżetowa</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Inne Systemy</h2>
+					</section>
+
+					<section>
+
+						<div class="Ccollumn Cleft">
+							<h2>ev3dev</h2>
+							<ul>
+								<li>debian</li>
+								<li>Swoboda języka
+									<ul>
+										<li>C++</li>
+										<li>Python</li>
+										<li>NodeJS</li>
+										<li>Go</li>
+									</ul>
+								</li>
+								<li>Dużo możliwości - dużo problemów</li>
+								<li>SSH</li>
+								<li><a href="http://www.ev3dev.org/">strona projektu</a></li>
+							</ul>
+						</div>
+
+						<div class="Ccollumn Cright" style="width: 80%">
+							<img src="resources/ev3dev_boot.png" width="400%">
+						</div>
+
+					</section>
+
+					<section>
+
+						<div class="Ccollumn Cleft">
+							<h2>LeJOS</h2>
+							<ul>
+								<li>Java</li>
+								<li>Zdalne uruchamianie (eclipse)</li>
+								<li>Zdalna kontrola (java)</li>
+								<li><a href="http://www.lejos.org/">strona projektu</a></li>
+							</ul>
+						</div>
+
+						<div class="Ccollumn Cright">
+							<img src="resources/lejosBoot.jpg" style="width: 100%">
+						</div>
+					</section>
+
+					<section>
+						<div class="Ccollumn Cleft">
+							<h2>Mono Brick</h2>
+							<ul>
+								<li>Mono
+									<ul>
+										<li>C#</li>
+										<li>F#</li>
+										<li>IronPython</li>
+									</ul>
+								</li>
+								<li>Zdalna kontrola (gui, android)</li>
+								<li><a href="http://www.monobrick.dk/">strona projektu</a></li>
+							</ul>
+						</br>
+							<img src="resources/monobrickLogoFrontPage.png" style="width: 50%">
+						</div>
+						<div class="Ccollumn Cright" style="left: 45%; width: 70% !important; margin: 0% !important">
+							<img src="resources/remoteScreen.png" style="width: 100%">
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Zaawansowane projekty</h2>
+					</section>
+					<section>
+						<h2>LEGO Printer</h2>
+						<iframe width="1120" height="600" src="https://www.youtube.com/embed/Y4neo4fRw2M" frameborder="0" allowfullscreen></iframe>
+					</section>
+					<section>
+						<h2>LEGO 360° Milling Machine</h2>
+						<iframe width="1120" height="600" src="https://www.youtube.com/embed/oF0pMILT7_Y" frameborder="0" allowfullscreen></iframe>
+					</section>
+					<section>
+						<h2>Lego Technic Loom</h2>
+						<iframe width="1120" height="600" src="https://www.youtube.com/embed/9-toKZHT-Ts" frameborder="0" allowfullscreen></iframe>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Sensory innych dostawców</h2>
+					</section>
+
+					<section>
+						<div class="Ccollumn Cleft">
+							<h2>Pixy</h2>
+							Kamera dla NXT oraz ev3 </br>
+							<a href="https://www.amazon.com/Pixy-LEGO-Vision-Tracking-Mindstorms/dp/B01AH55RU0/ref=sr_1_9?ie=UTF8&qid=1480947046&sr=8-9&keywords=ev3+sensor">link</a>
+						</div>
+						<div class="Ccollumn Cright">
+							<img src="resources/pixy.jpg">
+						</div>
+					</section>
+
+					<section>
+						<div class="Ccollumn Cleft">
+							<h2>dGPS</h2>
+							GPS i acelerometr dla NXT </br>
+							<a href="https://www.amazon.com/Dexter-1-dGPS-for-Mindstorms/dp/B004DARF74/ref=sr_1_42?ie=UTF8&qid=1480947140&sr=8-42&keywords=ev3+sensor">link</a>
+						</div>
+						<div class="Ccollumn Cright">
+							<img src="resources/gps.jpg">
+						</div>
+					</section>
+
+					<section>
+						<div class="Ccollumn Cleft">
+							<h2>Lego Vernier Sensor Adapter</h2>
+							Adapter do "normalnych" sensorów dla NXT </br>
+							<a href="https://www.amazon.com/Lego-Vernier-Sensor-Adapter-9799/dp/B00WXPY7RW/ref=sr_1_15?ie=UTF8&qid=1480947046&sr=8-15&keywords=ev3+sensor">link</a>
+						</div>
+						<div class="Ccollumn Cright">
+							<img src="resources/vernierAdapter.jpg">
+						</div>
+					</section>
+
 				</section>
 
 			</div>
